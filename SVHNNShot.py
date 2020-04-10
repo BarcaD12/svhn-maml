@@ -16,8 +16,8 @@ def reformat(samples, labels):
     
     return samples, labels
  
-train = load('C:\\users\\lenovo/train_32x32.mat')
-test = load('C:\\users\\lenovo/test_32x32.mat')
+train = load('root/train_32x32.mat')
+test = load('root/test_32x32.mat')
  
 train_samples = train['X']
 train_labels = train['y']
